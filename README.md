@@ -1,4 +1,4 @@
-# web-content-assistant-automation
+# web-content-automation
 web-content-assistant-automation
 
 # 🧭 HOWTO: Web Content Assistant Automation
