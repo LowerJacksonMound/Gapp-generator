@@ -1,0 +1,31 @@
+
+
+python orchestrator/orchestrator.py
+
+
+
+📦 Option 2: Use the ZIP Archive
+
+✅ Setup Steps
+Unzip web-content-assistant-automation.zip
+Open Terminal and navigate to the unzipped folder
+Run:
+cp .env.example .env
+pip install -r requirements.txt
+python orchestrator/orchestrator.py
+⚠️ If pip install fails, try:
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+🔑 API Key Reminder
+
+Edit .env file and insert your OpenAI key:
+
+OPENAI_API_KEY=sk-...
+🗂️ File Structure Reference
+
+modules/: All automation task scripts
+orchestrator/: Central controller for running the automation
+examples/: Sample data and test outputs
+docs/: Project background, costs, enhancements
+.env.example: Template for secrets
+requirements.txt: Python dependency list
